@@ -1,0 +1,90 @@
+.dedicacao_skill_bar {
+ width: 100%;
+ background-color: #FB0000;
+ border-radius: 18px;
+ padding-right: 5px;
+ padding-top: 3px
+}
+.dedicacao_skill_bar {
+ height: 1em;
+}
+
+.ramon_foto{
+	border-radius: 5em;
+	height: 5em;
+	object-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.app_foto{
+	border-radius: 2em;
+	height: 100px;
+	object-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.sql_skill_bar {
+ width: 95%;
+ background-color: #24061E;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+
+.php_skill_bar {
+ width: 58%;
+ background-color: #496C66;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+
+.html_skill_bar {
+ width: 85%;
+ background-color: #F38BDE;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+.boots_skill_bar {
+ width: 90%;
+ background-color: #7125B8;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+.css_skill_bar {
+ width: 75%;
+ background-color: #EF6D0D;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+.js_skill_bar {
+ width: 55%;
+ background-color: #ACA71C;
+ border-radius: 18px;
+ padding-right: 5px;
+}
+
+.container_skill_bar {
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 18px;
+}
+
+.container_bar {
+	width: 90%;
+}
+
+.skills {
+  height: 2em;
+  color: white;
+}
+.skill_bar {
+	padding: 1em 1em 1em 4.5em;
+	    position: relative;
+}
+
+.lateral {
+	background-color: blue;
+}
