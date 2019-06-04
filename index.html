@@ -9,8 +9,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
+		<script src="assets/code/highcharts.js"></script>
+		<script src="assets/code/modules/exporting.js"></script>
+		<script src="assets/code/modules/export-data.js"></script>
+		<script src="assets/js/grafics.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -36,11 +38,11 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Em busca da patente "Ninja!" <span style="font-size: 4rem;"><i class="fas fa-user-ninja"></i></span></h1>
-							<p>Seja bem vindo meu(a) nobre visitante!<br />
-							Faça uma análise completa de todo conteúdo de meu site, em seguida me conte o que achou ok?!</p>
+							<h1>Seja bem vindo ao meu Portal! <span style="font-size: 4rem;"><i class="fas fa-user-ninja"></i></span></h1>
+							<button>Mensagem do dia</button><br><br>
+							<p style="display: none;" id="msg"></p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Let's Go - Postagens!!!</a></li>
+								<li><a href="#one" class="button scrolly">Postagens!!!</a></li>
 							</ul>
 						</div>
 					</section>
@@ -51,10 +53,10 @@
 							<a href="#" class="image"><img src="images/developer.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>(Em breve) Saber ler, saber escrever! Um desafio.</h2>
+									<h2>(Em breve) Saber ler e escrever!</h2>
 									<p>Você consegue ler o código de um companheiro(a) de trabalho? Se a resposta é não, você faz parte da porcentagem da grande maioria dos desenvolvedores em aprendizagem.</p>
 									<ul class="actions">
-										<li><a href="#" class="button">Leitura jedi</a></li>
+										<li><a href="#" class="button">Ler Mais</a></li>
 									</ul>
 								</div>
 							</div>
@@ -63,11 +65,10 @@
 							<a href="#" class="image"><img src="images/analistas.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>(Em breve) É ruim trabalhar em uma empresa de T.i ou pior trabalhar em uma empresa que não é de T.i?</h2>
-									<p>Ô Louco!! Mas desse modo só tem lugar ruim para se trabalhar!</p>
+									<h2>(Em breve) É ruim trabalhar em uma empresa de T.i? ou é pior trabalhar em uma empresa que não é de T.i?</h2>
 									<p>Mude o ponto de vista sobre seu emprego clicando neste post e entendendo alguns aspectos que podem te revigorar! </p>
 									<ul class="actions">
-										<li><a href="#" class="button">Leitura Ninja</a></li>
+										<li><a href="#" class="button">Ler Mais</a></li>
 									</ul>
 								</div>
 							</div>
@@ -77,9 +78,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>(Em breve) Não gosto de programar, e agora?</h2>
-									<p>Você não gosta de programar, mas ama a área de infromática? Ah, não se desespere, leia este post e não sofra um infarte :)</p>
+									<p>Você não gosta de programar, mas ama a área de infromática? Ah, não se desespere, leia este post e conheça oportunidades :)</p>
 									<ul class="actions">
-										<li><a href="#" class="button">Leitura Samurai</a></li>
+										<li><a href="#" class="button">Ler Mais</a></li>
 									</ul>
 								</div>
 							</div>
@@ -134,41 +135,42 @@
 					</section>
 					<section id="skill_bar" class="wrapper style3 fade-up skill_bars skill_bar">
 						<h2>Habilidades técnicas</h2>
-						<label for="html_skill_bar">HTML 5</label>
+						<label for="html_skill_bar">Front End+Back End</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills html_skill_bar">85%</div>
+						  <div align="right" class="skills html_skill_bar">70%</div>
 						</div><br>
-						<label for="html_skill_bar">Css3</label>
+						<label for="erp_skill_bar">Experiências com ERP</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills css_skill_bar">75%</div>
+						  <div align="right" class="skills erp_skill_bar">75%</div>
 						</div><br>
-						<label for="html_skill_bar">Bootstrap</label>
+						<label for="sql_skill_bar">Consultas em banco de dados SQL</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills boots_skill_bar">90%</div>
+						  <div align="right" class="skills sql_skill_bar">90%</div>
 						</div><br>	
-						<label for="html_skill_bar">JavaScript</label>
+						<label for="fluxo_skill_bar">Fluxo Empresarial</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills js_skill_bar">55%</div>
+						  <div align="right" class="skills fluxo_skill_bar">65%</div>
 						</div><br>	
-						<label for="html_skill_bar">SQL - Server</label>
+						<label for="ferr_skill_bar">Ferramentas (Bizagi, Office, Adobe, ...)</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills sql_skill_bar">95%</div>
+						  <div align="right" class="skills ferr_skill_bar">95%</div>
 						</div><br>	
-						<label for="html_skill_bar">PHP</label>
+						<label for="pro_skill_bar">Programação</label>
 						<div align="left" class="container_bar container_skill_bar">
-						  <div align="right" class="skills php_skill_bar">58%</div>
+						  <div align="right" class="skills pro_skill_bar">60%</div>
 						</div><br>	
 						<label for="html_skill_bar">Força de vontade e Dedicação!</label>
 						<div align="left" class="container_bar container_skill_bar">
 						  <div align="center" class="skills dedicacao_skill_bar">MAIS DE 8MIL!</div>
 						</div><br>
-						<p><b><i>"Enfrentar novos desafios, ambientes diferentes e desconhecidos, sentir a capacidade de crescer, se desenvolver e conquistar seus objetivos. Nada compra todas essas sensações, nada compra a vontade de alcançar suas metas e sonhos!"</i></b><br>	
+						<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div> 
+						<p><b><i><br> "Enfrentar novos desafios, ambientes diferentes e desconhecidos, sentir a capacidade de crescer, se desenvolver e conquistar seus objetivos. Nada compra todas essas sensações, nada compra a vontade de alcançar suas metas e sonhos!"</i></b><br>	
 						<p align="right"><i>Ramon Xavier</i></p>
 					</section>	
 
 					<section id="two" class="wrapper style meus_proj fade-down">
 						<div class="inner">
-							<h2>Minhas Aplicações</h2>
+							<h2>Meus Trabalhos</h2>
 							<b><i>"A vitória faz parte da ambição do homem, as perdas fazem parte de suas tentativas, mas o homem que aceita a derrota é um ser que desistiu de sua missão!"</i></b></p>
 							<p align="right"><i>Ramon Xavier</i></p>
 							<div class="features">
@@ -272,11 +274,77 @@
 				<div class="inner">
 					<ul class="menu">
 						<li>&copy;Todos os direitos reservados.</li><li>Edição: <a href="https://www.linkedin.com/in/ramonxavier">Ramon Xavier</a></li><!--<li>Criado por:<a href="https://html5up.net/"> Html5 UP - Cheque mais aqui!</a></li>-->
+						<br><p id="msg"></p>
 					</ul>
 				</div>
 			</footer>
 
+		<!--GRÁFICO DE PIZZA ESTUDOS FREQUENTES -->
+		<script>
+			Highcharts.chart("container", {
+				chart: {
+				  plotBackgroundColor: '#b74e91',
+				  plotBorderWidth: -10,
+				  type: "pie"
+				},
+				title: {
+					text: "Habilidades técnicas específicas"
+				},
+				tooltip: {
+				  pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>",
+				  borderColor: "red",
+				},
+				plotOptions: {
+				  pie: {
+					allowPointSelect: true,
+					cursor: "pointer",
+					dataLabels: {
+					  enabled: true,
+					  format: "<b>{point.name}</b>: {point.percentage:.1f} %",
+					  style: {
+						color: "white",
+					  }
+					}
+				  }
+				},
+				series: [
+				  {
+					name: "Tecnologias:",
+					colorByPoint: true,
+					data: [
+					  {
+						name: "PHP",
+						y: 40.00,
+						sliced: true,
+						selected: true
+					  },
+					  {
+						name: "React",
+						y: 20.00
+					  },
+					  {
+						name: "UI and UX",
+						y: 10.00
+					  },
+					  {
+						name: "JavaScript",
+						y: 40.00
+					  },
+					  {
+						name: "Bootstrap",
+						y: 60.14
+					  },
+					  {
+						name: "SQL",
+						y: 50.52
+					  },
+					]
+				  }
+				]
+				});
+			</script> 
 		<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -284,6 +352,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/frasesDiarias.js"></script>
 
 	</body>
 </html>

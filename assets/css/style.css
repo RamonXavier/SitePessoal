@@ -1,69 +1,69 @@
 .dedicacao_skill_bar {
- width: 100%;
- background-color: #FB0000;
- border-radius: 18px;
- padding-right: 5px;
- padding-top: 3px
+  width: 100%;
+  background-color: #fb0000;
+  border-radius: 18px;
+  padding-right: 5px;
+  padding-top: 3px;
 }
 .dedicacao_skill_bar {
- height: 1em;
+  height: 1em;
 }
 
-.ramon_foto{
-	border-radius: 5em;
-	height: 5em;
-	object-position: center;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+.ramon_foto {
+  border-radius: 5em;
+  height: 5em;
+  object-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.app_foto{
-	border-radius: 2em;
-	height: 100px;
-	object-position: center;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+.app_foto {
+  border-radius: 2em;
+  height: 100px;
+  object-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.sql_skill_bar {
- width: 95%;
- background-color: #24061E;
- border-radius: 18px;
- padding-right: 5px;
+.ferr_skill_bar {
+  width: 95%;
+  background-color: #24061e;
+  border-radius: 18px;
+  padding-right: 5px;
 }
 
-.php_skill_bar {
- width: 58%;
- background-color: #496C66;
- border-radius: 18px;
- padding-right: 5px;
+.pro_skill_bar {
+  width: 60%;
+  background-color: #496c66;
+  border-radius: 18px;
+  padding-right: 5px;
 }
 
 .html_skill_bar {
- width: 85%;
- background-color: #F38BDE;
- border-radius: 18px;
- padding-right: 5px;
+  width: 70%;
+  background-color: #f38bde;
+  border-radius: 18px;
+  padding-right: 5px;
 }
-.boots_skill_bar {
- width: 90%;
- background-color: #7125B8;
- border-radius: 18px;
- padding-right: 5px;
+.sql_skill_bar {
+  width: 90%;
+  background-color: #7125b8;
+  border-radius: 18px;
+  padding-right: 5px;
 }
-.css_skill_bar {
- width: 75%;
- background-color: #EF6D0D;
- border-radius: 18px;
- padding-right: 5px;
+.erp_skill_bar {
+  width: 75%;
+  background-color: #ef6d0d;
+  border-radius: 18px;
+  padding-right: 5px;
 }
-.js_skill_bar {
- width: 55%;
- background-color: #ACA71C;
- border-radius: 18px;
- padding-right: 5px;
+.fluxo_skill_bar {
+  width: 65%;
+  background-color: #8db400;
+  border-radius: 18px;
+  padding-right: 5px;
 }
 
 .container_skill_bar {
@@ -73,7 +73,7 @@
 }
 
 .container_bar {
-	width: 90%;
+  width: 90%;
 }
 
 .skills {
@@ -81,10 +81,10 @@
   color: white;
 }
 .skill_bar {
-	padding: 1em 1em 1em 4.5em;
-	    position: relative;
+  padding: 1em 1em 1em 4.5em;
+  position: relative;
 }
 
 .lateral {
-	background-color: blue;
+  background-color: blue;
 }
