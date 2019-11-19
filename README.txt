@@ -1,33 +1,27 @@
-Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Este projeto foi desenvolvido em JavaScript, Html e Css. 
 
+Tem como objetivo a apresentação de meu portfólio até o 2º semestre de 2018.
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
+Foi usado um template para produzir o site, isso tornando a produtividade muito rápida e eficiente. 
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+O site está disponível no endereço: wwww.ramonxavier.000webhostapp.com e pode ser acessado por qualquer dispositivo. 
 
-(* = not included)
+Foi utilizado elementos Bootstrap e icones F-A. 
 
-AJ
-aj@lkn.io | @ajlkn
+O projeto foi descontinuado em julho de 2019 e será substituido por uma aplicação maior, com banco de dados
+Mysql e disponibilizado para qualquer usuário do Brasil. 
 
+Tecnologias utilizadas:
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+	- BOOTSTRAP;
+	- JAVASCRIPT;
+	- JQUERY;
+	- HTML;
+	- CSS; 
+	- F.A / ICONS;
+	- TEMPLATE - https://html5up.net/hyperspace
+	
+Contatos: 
+	Ramon Xavier 
+	32 - 99137-5797
+	ramon438xavier@gmail.com
